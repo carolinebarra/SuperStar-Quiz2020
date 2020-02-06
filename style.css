@@ -1,0 +1,94 @@
+/* Write some CSS below */
+
+.content {
+  position: center;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+
+  padding: 20px;
+}
+header {
+  position: relative;
+  background-color: black;
+  height: 30vh;
+  min-height: 23rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+  color: #f1f1f1;
+  padding: 1em;
+  order: -1;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 1;
+  background-color: black;
+}
+header .display-3 {
+  direction: flex;
+  font-family: ConduitITC, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue;
+  font-weight: 500;
+  color: #efe9d4;
+  margin-top: 10px;
+  margin-bottom: 0.4em;
+  justify-content: center;
+  word-wrap: break-word;
+}
+header .display-3 p {
+  justify-content: center;
+  word-wrap: break-word;
+}
+#google {
+  background: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.example {
+  width: 100%;
+  max-width: 1200px;
+  height: 700px;
+  margin: auto;
+  flex-flow: row;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  margin: 0;
+}
